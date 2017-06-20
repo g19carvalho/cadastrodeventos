@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="eventocientifico.visaot.web-1.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="eventocientifico.controle-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/eventoCientifico.controle/eventoCientifico.controle">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eventocientifico.modelo-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/eventoCientifico.modelo/eventoCientifico.modelo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/eventoCientifico.visaot.web/build/classes"/>
+        <property name="context-root" value="eventocientifico.visaot.web"/>
+    </wb-module>
+</project-modules>
